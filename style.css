@@ -1,0 +1,135 @@
+main {
+  width: 100vw;
+  color: yellow;
+  z-index: 1;
+  position: absolute;
+  width:100%;
+  margin-left: 200px;
+  padding: 120px 0px;
+  display: grid;
+  text-align: center;
+  
+  
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  border-style:ridge;
+  border-radius: 0px;
+  border-color:blue;
+  background-color:#111;
+  text-align: right;
+  position: fixed;
+  font-family: elevon, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position:sticky;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  
+}
+
+.intro {
+  font-family: elevon, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: medium;
+}
+
+p {
+  font-family:elevon, sans-serif;
+  font-size: normal;
+  font-weight: 600;
+  padding-top: 10px;
+  
+}
+
+/* The sidebar menu */
+.sidenavigation {
+  height: 2000px; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenavigation a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenavigation a:hover {
+  color: #f1f1f1;
+}
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenavigation {padding-top: 15px;}
+  .sidenavigation a {font-size: 18px;}
+}
+
+ul {
+  font-family:elevon, sans-serif;
+  font-size: small;
+  font-weight: 600;
+  
+}
+
+h2 {
+  text-decoration:underline;
+}
+
+.sources {
+  color:whitesmoke;
+}
+
+
+
+
+
+.sources a:link {
+  color:white;
+}
+
+.sources a:visited {
+  color:whitesmoke;
+}
+
+.sources a:hover {
+  color:aquamarine;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(44, 42, 134);
+  color: white;
+}
+
+.list {
+  margin-left: 35%;
+  text-align: left;
+}
+
+ol {
+  margin-left: 35%;
+  text-align: left;
+}
